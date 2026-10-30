@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "ip": "1.1.8"
+    "ip": "npm:@neverendingsupport/ip@1.1.9-ip-1.1.11"
+  },
+  "overrides": {
+    "ip@>=1.1.0 <=1.1.9": {
+      ".": "npm:@neverendingsupport/ip@1.1.9-ip-1.1.11"
+    }
   }
 }
